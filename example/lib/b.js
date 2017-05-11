@@ -1,3 +1,3 @@
 var a = require('./a');
 
-module.exports = a + ' and b';
+module.exports = c+ a + ' and b';
