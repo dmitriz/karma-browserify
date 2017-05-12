@@ -16,12 +16,17 @@ module.exports = function(karma) {
       'test/**/*Spec.js': [ 'browserify' ]
     },
 
-    browsers: [ 'Chrome' ],
+    browsers: [ 
+      // 'Chrome',
+      'Firefox'
+    ],
 
     logLevel: 'LOG_DEBUG',
 
-    singleRun: true,
-    autoWatch: false,
+    singleRun: false,
+    autoWatch: true,
+    // singleRun: true,
+    // autoWatch: false,
 
     // browserify configuration
     browserify: {
